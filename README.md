@@ -50,4 +50,4 @@ Contributions are welcome! If you have improvements or bug fixes, please fork th
 
 ```
 # License
-This repository is licensed under the [MIT] (License).
+This repository is licensed under the [MIT License](License).
