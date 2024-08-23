@@ -13,10 +13,8 @@ Welcome to the Python Scripts for SecOps repository! This collection of Python s
 This repository includes Python scripts for performing security operations tasks such as:
 
 ```markdown
-- Log Analytics 
-- Authentication monitoring
 - Password checking
-- Incident response
+- Common port scanning
 ```
 # Installation
 
