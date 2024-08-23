@@ -35,8 +35,18 @@ def check_http_status(target):
         return f"Error: {e}"
 
 #User define target IPs
+#Ports 137 and 139 (NetBIOS over TCP) and 445 (SMB)
+#Port 22 (SSH)
+#Port 53 (DNS)
+#Port 25 (SMTP)
+#Port 3389 (remote desktop)
+#Ports 80, 443, 8080 and 8443 (HTTP and HTTPS)
+#Ports 20 and 21 (FTP)
+#Port 23 (Telnet)
+#Ports 1433, 1434 and 3306 (used by databases)
+
 target = input("Enter the target IP: ")
-ports = [80, 443, 22, 21, 8080] #common port
+ports = [80, 443, 22, 21, 8080, 137, 53, 25, 3389, 20, 23, 1433, 1434, 3306] #common port
 
 #Check open ports
 open_ports = check_port(target, ports)
