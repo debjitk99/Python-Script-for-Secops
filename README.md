@@ -1,4 +1,4 @@
-# Python-Script-for-Secops
+# Python-Script-For-SecOps
 
 Welcome to the Python Scripts for SecOps repository! This collection of Python scripts is designed to assist with various Security Operations tasks. These scripts aim to streamline and automate security-related processes, making them more efficient and effective.
 
